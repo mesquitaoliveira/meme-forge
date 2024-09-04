@@ -1,0 +1,52 @@
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #9b59b6;
+}
+
+.custom-carousel .carousel-control-prev-icon::before,
+.custom-carousel .carousel-control-next-icon::before {
+  content: '';
+  border: solid #9b59b6;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.custom-carousel .carousel-control-prev-icon::before {
+  transform: rotate(135deg);
+}
+
+.custom-carousel .carousel-control-next-icon::before {
+  transform: rotate(-45deg);
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  position: static;
+  margin: 0 5px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.token-card {
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.token-card:hover {
+  background-color: #333333;
+}

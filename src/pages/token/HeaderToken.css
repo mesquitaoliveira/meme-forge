@@ -1,0 +1,38 @@
+.header-token {
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  align-items: center;
+  background-color: #000; /* Fundo preto */
+  padding: 0 20px;
+  border-bottom: 1px solid #ffffff26;
+  height: 40px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ffffff26; /* Barra vertical à direita */
+  height: 100%;
+  padding-right: 10px;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Espaço entre a barra vertical e o ícone */
+}
+
+.token-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; /* Espaço entre a imagem e o texto */
+  border-radius: 4px;
+}
+
+.token-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #fff;
+ gap: 8px;
+}
