@@ -1,7 +1,7 @@
-#A Simple Platform for Launching Meme Tokens
+# A Simple Platform for Launching Meme Tokens
 Our platform enables the quick and easy creation of meme tokens, with an intuitive interface and a streamlined process.
 
-#Key Features:
+## Key Features:
 Uniswap Integration: We use the Uniswap interface to create liquidity pairs (Pair) and the router, giving meme tokens their own dedicated space, similar to a DEX for meme coins. You can refer to the documentation at Uniswap Docs.
 
 Decentralized Storage on IPFS: Token images are stored in a decentralized manner on IPFS, ensuring data security and integrity. During deployment, only the CID of the image is stored on-chain, optimizing the use of smart contract space.
